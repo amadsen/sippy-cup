@@ -1,0 +1,27 @@
+{
+  "name": "sippy-cup",
+  "version": "1.0.0",
+  "description": "Package gulp tasks as node command line scripts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*-test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "gulplog": "^1.0.0",
+    "merge-stream": "^1.0.0",
+    "minimist": "^1.2.0",
+    "rc": "^1.1.6",
+    "readable-stream": "^2.0.6",
+    "stack-trace": "0.0.9",
+    "stream-series": "^0.1.1",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.2"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "tape": "^4.5.0"
+  }
+}
